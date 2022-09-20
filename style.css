@@ -1,0 +1,74 @@
+    .container {
+        position: relative;
+        width: 500px;
+        height: 310px;
+        margin: 40px auto 0px auto;
+        background-color: white;
+        border: 2px solid salmon;
+    }
+    
+    .sub {
+        position: absolute;
+        width: 370px;
+        height: 250px;
+        background-color: tomato;
+        margin: 20px 0px 0px 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .help1 {
+        width: 370px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: tomato;
+    }
+    
+    p {
+        font-size: 25px;
+        color: white;
+        background-color: red;
+    }
+    
+    .help2 {
+        width: 370px;
+        height: auto;
+        background-color: tomato;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .display2 {
+        background-color: tomato;
+        color: white;
+        font-size: 20px;
+        flex-basis: 76px;
+        align-self: center;
+        text-align: center;
+        font-size: 21px;
+    }
+    
+    span {
+        padding-left: 20px;
+    }
+    
+    .display {
+        text-align: center;
+        font-size: 45px;
+        color: white;
+        background-color: violet;
+        align-self: center;
+        flex-basis: 70px;
+    }
+    
+    .help3 img {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
